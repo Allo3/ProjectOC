@@ -1,3 +1,19 @@
-h1 { 
-    color: red;
+.row { 
+    display: flex;
+
+}
+
+.ms-auto { 
+    margin-left: auto;
+
+}
+
+.me-auto { 
+    margin-right: auto;
+
+}
+
+ul li{
+    display: inline;
+    text-align: center;
 }
