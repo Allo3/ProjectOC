@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
    <head>
+      <link rel="stylesheet" href="https://fonts.google.com/specimen/Raleway">
+      <meta charset="UTF-8">
       <title>Booki</title>
       <link rel="stylesheet" type="text/css" href="style.css">
    </head>
@@ -9,13 +11,12 @@
          <nav>
             <div class="row">
                <div class="me-auto logo-format">
-                  <a href=""> <img src="../logo/Booki.png " alt="logo"
-                        width="40%"></a>
+                  <a href="index.html"> <img src="../logo/Booki.png " alt="logo" width="80"></a>
                </div>
                <div class="ms-auto test-navbar">
                   <ul>
-                     <li><a href="">Hébergements</li></a>
-                     <li><a href="">Activités</li></a>
+                     <li><a href="index.html">Hébergements</a></li>
+                     <li><a href="index.html">Activités</a></li>
                   </ul>
                </div>
             </div>
@@ -23,68 +24,82 @@
 
       </header>
 
-      <div class="search">
-         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-         <p>En plein centre-ville ou en pleine nature</p>
-         <p><img src="../logo/rechercher.png " alt="Recherche"></p>
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <p>En plein centre-ville ou en pleine nature</p>
+      <div class="d-flex">
+         <div class="localisation-logo">
+            <img src="../logo/localisation.png"/>
+         </div>
+         <div class="search-input">
+            <input type="text">
+         </div>
+         <div class="d-flex search-button">
+            <img src="../logo/loupe.png"/>
+            <p>Rechercher</p>
+         </div>
       </div>
-      <div class="testtt">
-      <input type="text">
-      </div>
-
-      <div class="boutons">
+      <div class="filters">
          <h1>Filtres</h1>
-         <button><img src="../logo/eco.png " alt="économique" >
-            Économique</button>
-         <button><img src="../logo/pnj.png " alt="économique" >
-            Familial</button>
-         <button><img src="../logo/coeur.png " alt="économique" >
-            Romantique</button>
-         <button><img src="../logo/chien.png " alt="économique" >
-            Animaux Autorisés</button>
-         <p><img src="../logo/info.png " alt=""> Plus de 500 logements sont
-            disponibles dans cette ville</p>
+         <div class="billet-logo">
+            <button><img src="../logo/eco.png " alt="économique">
+               Économique</button>
+         </div>
+         <div class="pnj-logo">
+            <button><img src="../logo/pnj.png " alt="économique">
+               Familial</button>
+         </div>
+         <div class="coeur-logo">
+            <button><img src="../logo/coeur.png " alt="économique">
+               Romantique</button>
+         </div>
+         <div class="chien-logo">
+            <button><img src="../logo/chien.png " alt="économique">
+               Animaux Autorisés</button>
+         </div>
       </div>
-
+      <div class="info-logo">
+         <img src="../logo/info.png " alt="">
+      </div>
+      <p>Plus de 500 logements sont disponibles dans cette ville</p>
       <div>
          <h1>Hébergements à Marseille</h1>
          <a href="">
-            <img src="hebergements\4_small\doublelit.jpg " alt="Marcus">
-            <bold>Auberge La Canebière</bold>
+            <img src="hebergements/4_small/doublelit.jpg " alt="Marcus">
+            <p>Auberge La Canebière</p>
             <p>Nuit à partir de 25e</p>
             <img src="../logo/5star.png " alt="">
          </a>
          <a href="">
-            <img src="hebergements\4_small\litfenetre.jpg " alt="Marcus">
-            <bold>Hôtel du port</bold>
+            <img src="hebergements/4_small/litfenetre.jpg " alt="Marcus">
+            <p>Hôtel du port</p>
             <p>Nuit à partir de 52e</p>
             <img src="../logo/5star.png " alt="">
          </a>
          <a href="">
-            <img src="hebergements\4_small\dressing.jpg " alt="Marcus">
-            <bold>Hôtel Les mouettes</bold>
+            <img src="hebergements/4_small/dressing.jpg " alt="Marcus">
+            <p>Hôtel Les mouettes</p>
             <p>Nuit à partir de 76e</p>
             <img src="../logo/5star.png " alt="">
          </a>
          <a href="">
-            <img src="hebergements\4_small\tableau.jpg " alt="Marcus">
-            <bold>Hôtel de la mer</bold>
+            <img src="hebergements/4_small/tableau.jpg " alt="Marcus">
+            <p>Hôtel de la mer</p>
             <p>Nuit à partir de 46e</p>
             <img src="../logo/5star.png " alt="">
          </a>
          <a href="">
-            <img src="hebergements\4_small\chalet.jpg " alt="Marcus">
-            <bold>Auberge Le Panier</bold>
+            <img src="hebergements/4_small/chalet.jpg " alt="Marcus">
+            <p>Auberge Le Panier</p>
             <p>Nuit à partir de 23e</p>
             <img src="../logo/5star.png " alt="">
          </a>
          <a href="">
-            <img src="hebergements\4_small\fenetre.jpg " alt="Marcus">
-            <bold>Auberge Chez Amina</bold>
+            <img src="hebergements/4_small/fenetre.jpg " alt="Marcus">
+            <p>Auberge Chez Amina</p>
             <p>Nuit à partir de 96e</p>
             <img src="../logo/5star.png " alt="">
          </a>
-         <h2><bold>Afficher plus</bold></h2>
+         <h2>Afficher plus</h2>
       </div>
 
       <div>
@@ -92,20 +107,20 @@
             <h1>Les plus populaires <img src="../logo/stats.jpg " alt="asd"></h1>
          </div>
          <a href="">
-            <img src="hebergements\4_small\vert.jpg " alt="Marcus">
-            <bold>Hôtel Le soleil du matin</bold>
+            <img src="hebergements/4_small/vert.jpg " alt="Marcus">
+            <p>Hôtel Le soleil du matin</p>
             <p>Nuit à partir de 128e</p>
             <img src="../logo/5star.png " alt="">
          </a>
          <a href="">
-            <img src="hebergements\4_small\creatif.jpg " alt="Marcus">
-            <bold>Chambres d'hôtes Au coeur de l'eau</bold>
+            <img src="hebergements/4_small/creatif.jpg " alt="Marcus">
+            <p>Chambres d'hôtes Au coeur de l'eau</p>
             <p>Nuit à partir de 71e</p>
             <img src="../logo/5star.png " alt="">
          </a>
          <a href="">
-            <img src="hebergements\4_small\litbois.jpg " alt="Marcus">
-            <bold>Hôtel Bleu et Blanc</bold>
+            <img src="hebergements/4_small/litbois.jpg " alt="Marcus">
+            <p>Hôtel Bleu et Blanc</p>
             <p>Nuit à partir de 68e</p>
             <img src="../logo/5star.png " alt="">
          </a>
@@ -113,29 +128,29 @@
 
       <div>
          <div>
-            <h1><bold>Activités à Marseille</bold></h1>
+            <h1>Activités à Marseille</h1>
          </div>
          <a href="">
-            <img src="activites\4_small\port.jpg" alt="Marcus">
-            <bold>Vieux-Port</bold>
+            <img src="activites/4_small/port.jpg" alt="Marcus">
+            <p>Vieux-Port</p>
          </a>
          <a href="">
-            <img src="activites\4_small\fort.jpg" alt="Marcus">
-            <bold>Fort de Pomègues</bold>
+            <img src="activites/4_small/fort.jpg" alt="Marcus">
+            <p>Fort de Pomègues</p>
          </a>
          <a href="">
-            <img src="activites\4_small\parc.jpg" alt="Marcus">
-            <bold>Parc national des Calanques</bold>
+            <img src="activites/4_small/parc.jpg" alt="Marcus">
+            <p>Parc national des Calanques</p>
          </a>
          <a href="">
-            <img src="activites\4_small\cathe.jpg" alt="Marcus">
-            <bold>Notre-Dame-de-la-Garde</bold>
+            <img src="activites/4_small/cathe.jpg" alt="Marcus">
+            <p>Notre-Dame-de-la-Garde</p>
          </a>
       </div>
       <footer>
          <div class="row-footer">
             <div>
-               <p><bold>À propos</bold></p>
+               <p>À propos</p>
                <ul>
                   <li><a href="">Fonctionnement du site</a></li>
                   <li><a href="">Conditions générales</a></li>
@@ -143,14 +158,14 @@
                </ul>
             </div>
             <div>
-               <p><bold>Nos hébergements</bold></p>
+               <p>Nos hébergements</p>
                <ul>
                   <li><a href="">Charte qualité</a></li>
                   <li><a href="">Proposer votre hôtel</a></li>
                </ul>
             </div>
             <div>
-               <p><bold>Assistance</bold></p>
+               <p>Assistance</p>
                <ul>
                   <li><a href="">Centre d'aide</a></li>
                   <li><a href="">Nous contacter</a></li>
