@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    background-color: #f2f2f2;
+    background-color: white;
     margin-top: 0;
 }
 
@@ -179,7 +179,7 @@ a {
 
 
 
-.container-filter h1 {
+.container-filter h2 {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
@@ -268,7 +268,7 @@ a {
     margin-top: 34px;
 }
 
-.limit-cards h1 {
+.limit-cards h2 {
     padding-top: 20px;
     margin-bottom: 23px;
     font-weight: 700;
@@ -326,7 +326,7 @@ a {
     margin-bottom: 25px;
 }
 
-.container-card h2 {
+.container-card h3 {
     font-weight: 700;
     font-size: 16px;
     color: #000000;
