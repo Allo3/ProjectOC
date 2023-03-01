@@ -2,18 +2,18 @@
 
 
 body {
+    max-width: 1440px;
     background-color: white;
     margin-top: 0;
+    margin: auto;
 }
 
 header {
-    width: 74.19%;
     margin: auto;
     background-color: white;
 }
 
 main {
-    width: 69%;
     padding-left: 50px;
     padding-right: 50px;
     margin: auto;
@@ -21,7 +21,6 @@ main {
 }
 
 footer {
-    width: 74.19%;
     margin: auto;
     background-color: white;
 }
@@ -261,11 +260,12 @@ a {
 }
 
 .limit-cards {
+    width: 62.86%;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 90px;
     background-color: #F2F2F2;
     height: 626px;
     border-radius: 20px;
@@ -315,14 +315,15 @@ a {
 }
 
 .card-img {
-    width: 236px;
+    width: 105%;
     height: 119px;
     border-radius: 20px 20px 0 0;
     border: 5px solid #FFFFFF;
 }
 
 .card-form {
-    height: 199px;
+    width: 27.95%;
+    height: auto;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     transition: 0.3s;
     background: #ffffff;
@@ -334,7 +335,7 @@ a {
     font-weight: 700;
     font-size: 16px;
     color: #000000;
-    margin: 0%;
+    margin: 0;
     padding-bottom: 7px;
 }
 
@@ -342,13 +343,14 @@ a {
     font-weight: 400;
     font-size: 14px;
     color: #000000;
-    margin: 0%;
+    margin: 0;
 }
 
 .container-card {
+    height: 75px;
     flex-direction: column;
     margin-left: 16px;
-    margin-top: 0px;
+    margin-top: 0;
     border-radius: 0 0 20px 20px;
 }
 
@@ -367,7 +369,7 @@ a {
 
 
 .limit-cards-hor {
-    width: 880px;
+    width: 30%;
     height: 626px;
     padding-left: 37px;
     padding-right: 40px;
@@ -561,14 +563,17 @@ a {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    body { 
+        max-width: 991px;
+    }
     header {
-        width: 991px;
+        width: 100%;
         margin: auto;
         background-color: #F0F2F6;;
     }
 
     main {
-        width: 891px;
+        width: 89.91%;
         padding-left: 50px;
         margin-right: 50px;
         margin: auto;
@@ -576,7 +581,7 @@ a {
     }
 
     footer {
-        width: 991px;
+        width: 100%;
         margin: auto;
         background-color: #F0F2F6;
     }
@@ -710,14 +715,17 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+    body { 
+        max-width: 767px;
+    }
     header {
-        width: 767px;
+        width: 100%;
         margin: auto;
         background-color: white;
     }
 
     main {
-        width: 667px;
+        width: 89.91%;
         margin: auto;
         background-color: white;
         padding-left: 0px;
@@ -725,7 +733,7 @@ a {
     }
 
     footer {
-        width: 767px;
+        width: 100%;
         margin: auto;
         background-color: white;
     }
